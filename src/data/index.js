@@ -1,21 +1,20 @@
 const menus = [
-    { id: 1, name: "Trang chủ", link: "/" },
-    { id: 2, name: "Dự án", link: "/projects" },
-    { id: 3, name: "Bài viết", link: "/posts" },
-    { id: 4, name: "Liên hệ", link: "/contact" },
+    { id: 1, name: "Home", link: "/" },
+    { id: 2, name: "Projects", link: "/projects" },
+    { id: 3, name: "About", link: "/about" },
 ]
 
 const projects  = [
     {
         id: 1,
-        name: "Dự án 1",
+        name: "Project-1",
         teams: [
-            { id: 1, name: "Dat" },
-            { id: 2, name: "Kien" },
-            { id: 3, name: "Kien" },
+            { id: 1, name: "" },
+            { id: 2, name: "" },
+            { id: 3, name: "" },
         ],
     },
-    { id: 2, name: "Dự án mẫu", author: "Đạt" },
-    { id: 3, name: "Dự án Tốt nghiệp", author: "Kiên" },
+    { id: 2, name: "", author: "" },
+    { id: 3, name: "", author: "" },
 ];
 export { projects , menus };
